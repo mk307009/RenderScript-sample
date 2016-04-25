@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 Allocation.MipmapControl.MIPMAP_NONE,
                 Allocation.USAGE_SCRIPT);
         mScript = new ScriptC_mono(mRS, getResources(), R.raw.mono);
+        mScript.set_width(mBitmapIn.getWidth());
+        mScript.set_height(mBitmapIn.getHeight());
         mScript.set_inputImage(mInAllocation);
         mScript.forEach_root(mInAllocation, mOutAllocation);
         mOutAllocation.copyTo(mBitmapOut);

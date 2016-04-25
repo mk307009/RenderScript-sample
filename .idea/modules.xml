@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RenderScript.iml" filepath="$PROJECT_DIR$/RenderScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RenderScript-sample.iml" filepath="$PROJECT_DIR$/RenderScript-sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
